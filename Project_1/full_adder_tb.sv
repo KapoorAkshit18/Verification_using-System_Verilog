@@ -36,5 +36,7 @@ initial
 begin 
 
 t=new();
+repeat(10);
+assert(t.randomize());
 
 
