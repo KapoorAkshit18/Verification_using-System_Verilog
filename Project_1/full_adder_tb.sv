@@ -41,6 +41,9 @@ assert(t.randomize());
 t.check_fa
 t.a=a;t.b=b; t.cin=cin;
 
+
+
+
 end
 endmodule
 
