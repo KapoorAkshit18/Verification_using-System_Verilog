@@ -17,6 +17,17 @@ endfunction
 endclass
 
 module fa_tb;
+
 logic a,b,cin;
 logic sum,cout;
+
+fa dut (
+
+          .a(a),
+          .b(b),
+          .cin(cin),
+          .sum(sum),
+          .cout(cout)
+)
+
 
