@@ -30,4 +30,11 @@ fa dut (
           .cout(cout)
 )
 
+txn t;
+
+initial 
+begin 
+
+t=new();
+
 
