@@ -7,6 +7,7 @@ rand bit a,b,cin;
 bit sum_tmp, cout_tmp;
 
 function check_fa ();
+bit[1:0] temp;
 assign temp = a+b+cin; //why temp
 temp[1]=cout_tmp;
 temp[0]=sum_tmp;
